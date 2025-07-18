@@ -40,7 +40,6 @@ export async function onRequest(context) {
         status: response.status,
         statusText: response.statusText,
       });
-    }
   }
   
   return response;
