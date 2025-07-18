@@ -17,8 +17,8 @@
       "destination": "/player.html"
     },
     {
-      "source": "/:path",
-      "destination": "/:path"
+      "source": "/:path*",
+      "destination": "/:splat"
     }
   ]
 }
